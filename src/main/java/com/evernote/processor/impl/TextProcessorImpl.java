@@ -51,7 +51,7 @@ public class TextProcessorImpl implements TextProcessor {
 			}
 			max = Math.max(max, wordCount.get(word));
 		}
-		System.out.println(wordCount.toString());
+		
 		return mostFrequentWords(itemCount);
 	}
 
@@ -85,11 +85,5 @@ public class TextProcessorImpl implements TextProcessor {
 			}
 		}
 		return result;
-	}
-
-	public static void main(String[] args) {
-		TextProcessorImpl tp = new TextProcessorImpl();
-		String text = "hello world% hello hello% world% enoug-h is hello% enough is there all hello";
-		System.out.println(tp.textProcessor(text, 3).toString());
 	}
 }
