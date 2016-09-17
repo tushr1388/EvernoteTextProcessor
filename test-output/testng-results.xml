@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35" started-at="2016-09-17T23:03:47Z" finished-at="2016-09-17T23:03:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35" started-at="2016-09-17T23:03:47Z" finished-at="2016-09-17T23:03:47Z">
+      <class name="com.evernote.processor.tests.TextProcessorTest">
+        <test-method status="PASS" signature="testAlphaNumNonAlphaNumericStringSuccess()[pri:0, instance:com.evernote.processor.tests.TextProcessorTest@6d8a00e3]" name="testAlphaNumNonAlphaNumericStringSuccess" duration-ms="9" started-at="2016-09-17T16:03:47Z" finished-at="2016-09-17T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlphaNumNonAlphaNumericStringSuccess -->
+        <test-method status="PASS" signature="testEmptyString()[pri:0, instance:com.evernote.processor.tests.TextProcessorTest@6d8a00e3]" name="testEmptyString" duration-ms="1" started-at="2016-09-17T16:03:47Z" finished-at="2016-09-17T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyString -->
+        <test-method status="PASS" signature="testNegativeItemCount()[pri:0, instance:com.evernote.processor.tests.TextProcessorTest@6d8a00e3]" name="testNegativeItemCount" duration-ms="1" started-at="2016-09-17T16:03:47Z" finished-at="2016-09-17T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeItemCount -->
+        <test-method status="PASS" signature="testNullString()[pri:0, instance:com.evernote.processor.tests.TextProcessorTest@6d8a00e3]" name="testNullString" duration-ms="1" started-at="2016-09-17T16:03:47Z" finished-at="2016-09-17T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullString -->
+        <test-method status="PASS" signature="testSuccess()[pri:0, instance:com.evernote.processor.tests.TextProcessorTest@6d8a00e3]" name="testSuccess" duration-ms="1" started-at="2016-09-17T16:03:47Z" finished-at="2016-09-17T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testZeroItemCount()[pri:0, instance:com.evernote.processor.tests.TextProcessorTest@6d8a00e3]" name="testZeroItemCount" duration-ms="1" started-at="2016-09-17T16:03:47Z" finished-at="2016-09-17T16:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZeroItemCount -->
+      </class> <!-- com.evernote.processor.tests.TextProcessorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
